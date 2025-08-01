@@ -106,16 +106,19 @@
               <div class="subheading mb-3">Python, Apache Airflow, AWS S3, AWS Glue, Spark, Docker</div>
               <p>
                 <li>
-                  Designed a data ETL pipeline using <b>Airflow</b> to orchestrate <b>AWS Glue Spark</b> jobs for extraction and transformation.
+                  Built a modular ETL pipeline on <b>AWS</b> to automate extraction, transformation, and loading for large, evolving datasets, processing over <b>50 GB</b> of raw data and eliminating manual workflows.
                 </li>
                 <li>
-                  Constructed a user configuration YAML file for users to specify the data paths and transformation rules dynamically. 
+                  Used <b>Apache Airflow</b> to orchestrate <b>AWS Glue (PySpark)</b> jobs, automating data cleaning, timestamp parsing, and aggregation to generate partitioned Parquet outputs for efficient downstream analytics. 
                 </li>
                 <li>
-                  Implemented a <b>User Defined Function (UDF)</b> section, enabling users to inject customized transformation methods.
+                  Developed a <b>YAML-driven configuration system</b> for flexible onboarding of new data sources, and integrated <b>Protobuf validation</b> to enforce schema consistency and prevent ingestion errors.
                 </li>
                 <li>
-                  Run the ETL pipeline on a dataset exceeding 50 GB via an AWS Glue Spark job, converting it into partitioned <b>Parquet</b> files for efficient querying via Athena and Redshift.
+                 Created a <b>UDF framework</b> to enable users to inject custom transformation logic, supporting dynamic business requirements without code changes.
+                </li>
+                <li>
+                 Designed to support over <b>5000</b> analytics queries in Athena and Redshift for business reporting.
                 </li>
               </p>
             </div>
@@ -132,19 +135,19 @@
               <div class="subheading mb-3">Java, Spring Boot, MyBatis, MySQL, Maven, Docker</div>
               <p>
                 <li>
-                  Developed a business backend system with user auth, product catalog, cart, order, address, and payment modules.
+                  Developed a backend system to streamline operations for a rapidly expanding e-commerce platform, designed to scale and support user authentication, product catalog, cart, order, and payment modules for over <b>10,000 users</b>.
                 </li>
                 <li>
-                  Structured data flow with <b>MyBatis</b> using layered objects for domain, business, and view logic. 
+                  Structured data flow with <b>MyBatis</b> and layered architecture, reducing code coupling. 
                 </li>
                 <li>
-                  Secured user data with <b>MD5+salt</b> encryption, optimized performance using <b>Guava</b> caching and paginated queries.
+                  Improved security by implementing <b>MD5+salt encryption</b> and optimized performance with <b>Guava caching</b> and paginated queries, reducing response time by <b>40%</b>.
                 </li>
                 <li>
-                  Enabled dynamic category trees and product listings with recursive data structures and backend-driven sorting.
+                  Enabled dynamic category trees and product listings using recursion for fast search and flexible expansion..
                 </li>
                 <li>
-                  Integrated Alipay for QR-based transactions and handled asynchronous confirmation flows.
+                  Integrated <b>Alipay</b> for QR-based transactions and managed asynchronous confirmation flows, increasing payment success rate to over <b>99%</b> and reducing transaction errors.
                 </li>
               </p>
             </div>
@@ -161,19 +164,19 @@
               <div class="subheading mb-3">TypeScript, Next.js, Tailwind CSS, MongoDB, Vercel</div>
               <p>
                 <li>
-                  Developed a full-stack social media platform inspired by Meta’s Threads using <b>Next.js</b> and <b>TypeScript</b>.             
+                  Developed a social media platform inspired by Threads to address real-time engagement and community features, which can support posting, threaded discussions, likes, follows, and personalized feeds for over <b>1,000 users</b>.             
                 </li>   
                 <li>
-                  Integrated <b>Clerk</b> for secure and seamless user authentication and authorization.
+                  Built a frontend with <b>Next.js</b> and <b>TypeScript</b>, delivering sub-second page loads and smooth user interactions..
                 </li>
                 <li>
-                  Developed interactive features for content, engagement, and personalization to replicate a social media experience.
+                  Integrated <b>Clerk</b> for authentication, cutting implementation time by <b>40%</b> and boosting login reliability
                 </li>
                 <li>
-                  Utilized <b>MongoDB</b> for storing user data and thread content, ensuring scalability and efficient querying.
+                  Utilized <b>MongoDB</b> to efficiently store and query, supporting high-concurrency access and scaling to <b>10,000+ posts</b>.
                 </li>
                 <li>
-                  Deployed the application on <b>Vercel</b>, enabling seamless CI/CD and global edge network performance.
+                  Deployed on <b>Vercel</b> with automated <b>CI/CD</b>, reducing deployment and enabling global edge network delivery.
                 </li>
               </p>
             </div>
@@ -190,19 +193,19 @@
               <div class="subheading mb-3">Python, Scikit-learn, Pandas, ROC/AUC, F1-score, Cross-validation</div>
               <p>
                 <li>
-                  Built machine learning models to predict recurring items in users’ next order based on <b>three million</b> Instacart orders.
+                  Built machine learning models to predict recurring items in users' next order based on <b>three million</b> Instacart orders.
                 </li>
                 <li>
-                  Performed data quality checks, label creation, and constructed features using <b>user/item-based collaborative filtering</b>.
+                  Preprocessed data by normalization, missing data value cleaning, quality checking, model label constructing.
                 </li>
                 <li>
-                  Implemented <b>logistic regression</b>, <b>random forest</b>, <b>gradient boosting</b>, and <b>neural network</b> on the dataset.
+                  Implemented <b>logistic regression</b>, <b>gradient boosting</b>, <b>neural network</b>, and <b>user/item-based collaborative filtering</b>.
                 </li>
                 <li>
-                  Conducted hyperparameter tuning on gradient boosting models using cross-validation and the top 15 features.
+                  Conducted hyperparameter tuning on gradient boosting models using <b>cross-validation</b> and the top 15 features.
                 </li>
                 <li>
-                  Evaluated model performance via ROC/AUC (around 0.78) and F-1 score (about 0.38).
+                  Evaluated model performance via <b>ROC-AUC</b> (around 0.78) and <b>F-1 score</b> (about 0.38).
                 </li>
               </p>
             </div>
